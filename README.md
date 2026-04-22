@@ -100,7 +100,7 @@ Commands will auto-complete when you press Tab.
 First, make sure your Python environment is activated (check your project's README for the exact command). Then run the inspector with:
 
 ```bash
-mcp dev mcp_server.py
+uv run mcp dev mcp_server.py
 ```
 
 This starts a development server and gives you a local URL, typically something like http://127.0.0.1:6274. Open this URL in your browser to access the MCP Inspector.
